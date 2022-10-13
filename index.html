@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonny Moir's Calculator!</title>
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  
+  <body>
+
+    <main>
+      <p>Welcome to my home-made calculator. I was getting overwhelmed by studying the few things 
+        we need to know for coding. So, I decided, let's just make stuff and learn by failure. If you
+        are reading this and the calculator is working, a miracle happened! Else (see what I did there?),
+        the struggle is afoot!
+      </p>  
+
+      <div class="container">
+        <div id="screen">
+          My Screen with numbers!
+        </div>
+
+        <div class="keypad">
+          <div class="number-pad">
+            <button id="7" class="numbers">7</button>
+            <button id="8"  class="numbers">8</button>
+            <button id="9"  class="numbers">9</button>
+            <button id="4"  class="numbers">4</button>
+            <button id="5"  class="numbers">5</button>
+            <button id="6"  class="numbers">6</button>
+            <button id="1"  class="numbers">1</button>
+            <button id="2"  class="numbers">2</button>
+            <button id="3"  class="numbers">3</button>
+            <button id="0"  class="numbers">0</button>
+          </div>
+
+          <div class="operations">
+            <button  id="add" class="ops" onClick="myAddFunction()">  +  </button>
+            <button  id="sub" class="ops" onClick="mySubtractFunction()">  -  </button>
+            <button  id="mult" class="ops" onClick="myMultiplyFunction()">  *  </button>
+            <button  id="divide" class="ops" onClick="myDivideFunction()">  /  </button>
+            <button  id="equals" class="ops">  =  </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </body>
+  <script src="scripts.js"></script>
+</html>
+
